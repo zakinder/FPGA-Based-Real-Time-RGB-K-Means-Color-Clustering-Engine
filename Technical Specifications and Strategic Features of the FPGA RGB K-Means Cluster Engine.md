@@ -1,3 +1,5 @@
+# Technical Specifications and Strategic Features of the FPGA RGB K-Means Cluster Engine
+
 ## 1. Introduction to Real-Time Color Quantization Hardware
 In high-performance vision systems, the transition of K-Means clustering from software-based execution to dedicated FPGA hardware is a strategic necessity rather than a mere optimization. Traditional software implementations are fundamentally restricted by serial execution patterns and prohibitive memory overhead, resulting in latencies that make real-time processing of high-definition video at line rate impossible. By offloading these tasks to a custom-designed streaming datapath, architects can achieve the deterministic, low-latency performance required for mission-critical video analytics and high-speed industrial inspection.
 
